@@ -11,7 +11,7 @@ regards
 
 ## docker
 
-the first section installs Docker app and the libraries and repos that it needs
+the first section installs Docker app and the require software, libraries and repos that it needs
 
 ```
 sudo apt-get update
