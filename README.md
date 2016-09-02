@@ -68,9 +68,9 @@ sudo chmod +x /usr/bin/kubectl
 
 # troubleshooting
 
-## not ubuntu-trusty distro (14.04)
+## Docker: The following packages have unmet dependencies:...
 
-change the line 10 with the ubuntu distro name that you are using
+you probably are not using ubuntu-trusty distro (14.04), change the line 10 with the ubuntu distro name that you are using
 
 ##  docker: Cannot connect to the Docker daemon. Is 'docker -d' running on this host?
 
