@@ -65,3 +65,14 @@ docker run -d \
 sudo curl -sSL "http://storage.googleapis.com/kubernetes-release/release/v1.2.0/bin/linux/amd64/kubectl" > /usr/bin/kubectl
 sudo chmod +x /usr/bin/kubectl
 ```
+
+# troubleshooting
+
+## not ubuntu-trusty distro (14.04)
+
+change the line 10 with the ubuntu distro name that you are using
+
+##  docker: Cannot connect to the Docker daemon. Is 'docker -d' running on this host?
+
+run any docker command with sudo, or create a users-group and add docker user to it
+
